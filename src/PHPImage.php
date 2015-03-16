@@ -1202,4 +1202,20 @@ class PHPImage {
 		}
 		return $this;
 	}
+	
+    /**
+     * @param int $type
+     */
+    public function setType($type)
+    {
+        $this->type = $type;
+    }
+
+    /**
+     * @return int
+     */
+    public function getType()
+    {
+        return $this->type;
+    }
 }
